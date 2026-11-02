@@ -25,13 +25,13 @@
 | [stm32-fire-warning-fw](https://github.com/xujingjun1/stm32-fire-warning-fw) | 毕设：STM32 + FreeRTOS 多模态火灾预警终端固件（UART 帧协议层已完成，PC 单元测试 16 断言全过） | 进行中 |
 | [stm32-voice-smart-home](https://github.com/xujingjun1/stm32-voice-smart-home) | 实训：语音识别智能家居（USART3 中断+空闲收帧 / WS2812 位带时序 / USB VCP / ADC） | 已完成 |
 | [road-scene-detection](https://github.com/xujingjun1/road-scene-detection) | RAICOM 广东赛区一等奖：道路场景检测模型鲁棒性优化（零结构改动、零参数增量） | 已完成 |
-| rk3568-infer | 毕设边缘推理端（YOLO → ONNX → RKNN INT8 量化部署） | 筹备中（暂未开源） |
+| k210-vision | 毕设视觉端（YOLO → ONNX → nncase INT8 量化 → K210 KPU 推理） | 筹备中（暂未开源） |
 
 ---
 
 ## 一句话自我介绍
 
-> 本科物联网工程，主攻 STM32 固件开发；毕设在做「STM32 实时控制 + RK3568 边缘视觉推理」两级异构火灾预警系统，
+> 本科物联网工程，主攻 STM32 固件开发；毕设在做「STM32 实时控制 + K210 边缘视觉推理」两级异构火灾预警系统，
 > 比赛方向做过 YOLO 模型训练与鲁棒性优化。能读原理图和数据手册，习惯用示波器和逻辑分析仪定位接口问题。
 
 ---
