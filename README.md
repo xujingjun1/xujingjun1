@@ -11,10 +11,10 @@
 | 语言 | C（主力）、Python（脚本与模型） |
 | MCU | STM32F103C8T6（GPIO / ADC / PWM / 定时器 / 外部中断 / UART / I2C） |
 | 通信协议 | UART 自定义变长帧（状态机解析、校验、重同步）、I2C、WS2812 单总线时序 |
-| 实时系统 | FreeRTOS（学习中，毕业设计中实践任务划分与优先级设计） |
+| 实时系统 | FreeRTOS（学习中，在项目中实践任务划分与优先级设计） |
 | 硬件与调试 | 原理图与数据手册阅读、示波器、逻辑分析仪、万用表、最小系统焊接与故障修复 |
 | 工具 | Git、Keil MDK、STM32CubeMX |
-| 模型侧（加分） | YOLO 训练与鲁棒性评估（比赛方向）、数据增强策略设计 |
+| 模型侧（加分） | YOLO 训练与鲁棒性评估、数据增强策略设计 |
 
 ---
 
@@ -22,17 +22,17 @@
 
 | 项目 | 说明 | 状态 |
 |---|---|---|
-| [stm32-fire-warning-fw](https://github.com/xujingjun1/stm32-fire-warning-fw) | 毕设：STM32 + FreeRTOS 多模态火灾预警终端固件（UART 帧协议层已完成，PC 单元测试 16 断言全过） | 进行中 |
-| [stm32-voice-smart-home](https://github.com/xujingjun1/stm32-voice-smart-home) | 实训：语音识别智能家居（USART3 中断+空闲收帧 / WS2812 位带时序 / USB VCP / ADC） | 已完成 |
-| [road-scene-detection](https://github.com/xujingjun1/road-scene-detection) | RAICOM 广东赛区一等奖：道路场景检测模型鲁棒性优化（零结构改动、零参数增量） | 已完成 |
-| k210-vision | 毕设视觉端（YOLO → ONNX → nncase INT8 量化 → K210 KPU 推理） | 筹备中（暂未开源） |
+| [stm32-fire-warning-fw](https://github.com/xujingjun1/stm32-fire-warning-fw) | STM32 + FreeRTOS 多模态火灾预警终端固件（UART 帧协议层已完成，PC 单元测试 16 断言全过） | 进行中 |
+| [stm32-voice-smart-home](https://github.com/xujingjun1/stm32-voice-smart-home) | 语音识别智能家居（USART3 中断+空闲收帧 / WS2812 位带时序 / USB VCP / ADC） | 已完成 |
+| [road-scene-detection](https://github.com/xujingjun1/road-scene-detection) | 道路场景检测模型鲁棒性优化（零结构改动、零参数增量） | 已完成 |
+| k210-vision | K210 视觉端（YOLO → ONNX → nncase INT8 量化 → K210 KPU 推理） | 筹备中（暂未开源） |
 
 ---
 
 ## 一句话自我介绍
 
-> 本科物联网工程，主攻 STM32 固件开发；毕设在做「STM32 实时控制 + K210 边缘视觉推理」两级异构火灾预警系统，
-> 比赛方向做过 YOLO 模型训练与鲁棒性优化。能读原理图和数据手册，习惯用示波器和逻辑分析仪定位接口问题。
+> 本科物联网工程，主攻 STM32 固件开发；在做「STM32 实时控制 + K210 边缘视觉推理」两级异构火灾预警系统，
+> 做过 YOLO 模型训练与鲁棒性优化。能读原理图和数据手册，习惯用示波器和逻辑分析仪定位接口问题。
 
 ---
 
